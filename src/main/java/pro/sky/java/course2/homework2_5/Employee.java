@@ -6,8 +6,8 @@ public class Employee {
     private final String lastName;
 
 
-    public Employee(String name, String lastName) {
-        this.firstName = name;
+    public Employee(String firstName, String lastName) {
+        this.firstName = firstName;
         this.lastName = lastName;
     }
 
